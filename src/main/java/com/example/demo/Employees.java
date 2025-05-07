@@ -18,4 +18,10 @@ public class Employees {
         this.Employees = Employees;
     }
 
+    public void addEmployee(Employee employee){
+        this.Employees.add(employee);
+    }
+
+
+
 }
